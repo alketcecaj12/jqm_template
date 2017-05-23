@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LUMEPlanner</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<script src="js/jquery.js"></script>
+	<script src="_assets/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .ui-grid-a img {
+       width  : 100%;
+       height : auto;
+   }
+          .ui-grid-b img {
+       width  : 100%;
+       height : auto;
+   }
+    </style>
+</head>
+<body>
+<div data-role="page" class="jqm-demos jqm-home">
+
+	<div data-role="header" class="jqm-header"  data-position="fixed" >
+		<h2><img src="_assets/img/logo-text.png" alt="jQuery Mobile"></h2>
+		<!--<p>Version <span class="jqm-version"></span></p> -->
+		<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+	</div><!-- /header -->
+
+	 <div role="main" class="ui-content jqm-content">
+
+		<h1 align = "center">Project</h1>
+
+		<p align = "center"><strong>Project slogan !</strong></p>
+  
+      <label for="search-mini"></label>
+      <input type="search" name="search-mini" id="search-mini" value="" data-mini="true" />
+
+    
+        <div class="ui-grid-a ui-responsive">
+        	<div class="ui-block-a">
+        		<div class="jqm-block-content">
+        			<h3 align = "center">Bologna</h3>
+                    <!--_assets\img -->
+                     <img src = "_assets/img/bologna.jpg" data-display = "responsive">
+                    
+        		</div>
+        	</div>
+        	<div class="ui-block-b">
+        		<div class="jqm-block-content">
+        			<h3 align = "center" >Modena</h3>   
+                    <img src = "_assets/img/modena.jpg">
+        		</div>
+        	</div>        	
+        	<div class="ui-block-a">
+        		<div class="jqm-block-content">
+        			<h3 align = "center" >Parma</h3>
+                    <img src = "_assets/img/parma.jpg">
+        		</div>
+        	</div>
+        	<div class="ui-block-b">
+        		<div class="jqm-block-content">
+        			<h3 align = "center" >Ferrara</h3>
+                    <img src = "_assets/img/ferrara.jpg">
+        		</div>
+        	</div>
+            <div class="ui-block-b">
+        		<div class="jqm-block-content">
+        			<h3 align = "center" >Reggio Emilia</h3>
+                    <img src = "_assets/img/reggio.jpg">
+        		</div>
+        	</div>
+            <div class="ui-block-b">
+        		<div class="jqm-block-content">
+        			<h3 align = "center">Rimini</h3>
+                    <img src = "_assets/img/rimini.jpg">
+        		</div>
+        	</div>
+        </div>
+
+	</div><!-- /content --> 
+<div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+
+<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="homepage" data-icon="home"><a href=".././">Homepage</a></li>
+<li data-filtertext="favoriti"><a href="" data-icon="location" data-ajax="false">I miei favoriti</a></li>
+<li data-filtertext="percorsi"><a href="" data-ajax="false">I percorsi più visti</a></li>
+<li data-filtertext="account"><a href="" data-ajax="false">Mio account</a></li>
+<li data-filtertext="assistenza"><a href="" data-ajax="false">Assistenza</a></li>
+</ul>
+</div><!-- /panel -->
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p align = "center">LUMEPlanner</p>
+		
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
